@@ -36,20 +36,24 @@ export default function Introductions() {
             />
           </h1>
           <p className=" mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-            "Como desarrollador Front-End, me dedico al diseño y la
+            Como desarrollador Front-End, me dedico al diseño y la
             funcionalidad de aplicaciones web para crear experiencias
-            impactantes y accesibles."{" "}
+            impactantes y accesibles.{" "}
           </p>
           <div className=" flex items-center justify-center gap-3 md:justify-start md:g-10">
             <Link
               href="/portfolio"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
-            >Ver Proyectos</Link>
+            >
+              Ver Proyectos
+            </Link>
 
             <Link
               href="/contact"
               className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary"
-            >Contacta Conmigo</Link>
+            >
+              Contacta Conmigo
+            </Link>
           </div>
         </div>
       </div>
